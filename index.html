@@ -12,22 +12,23 @@
             <section class="mini-header">
 
                 <div class="inning">
-                    <h3 class="header-font">2</h3>
+                    <h3 class="header-font">2 <span class="inning-arrow" id="top-inning">▲</span> <span class="inning-arrow" id="bottom-inning">▼</span></h3>
                 </div>
                 <div class="team">
                     <h3 class="header-font">HOME</h3>
                 </div>
                 <div class="logo">
-                    <h3 class="header-font">⚾</h3>
+                    <img class="header-font" src="../img/baseball-player.png" width="48px" height="48px" />
                 </div>
 
             </section>
 
             <section class="main-score">
-                <button class="down-arrow arrows" id="score-down" disabled>
+                <button class="down-arrow arrows disabled" id="score-down" disabled>
                     <span>⇩</span>
                 </button>                
                 <div class="score-container">
+                    <h4>SCORE</h4>
                     <h1 class="score" id="score">0</h1>
                 </div>
                 <button class="up-arrow arrows" id="score-up">
@@ -36,6 +37,13 @@
             </section>
 
             <section class="count">
+                <div class="ball-count">
+                    <h4>BALLS</h4>
+                </div>
+
+                <div class="strike-count">
+                    <h4>STRIKES</h4>
+                </div>
 
             </section>
 

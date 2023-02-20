@@ -30,7 +30,11 @@ h3 {
     font-size: 3em;
 }
 
-button {
+h4 {
+    font-size: 2.25em;
+}
+
+button.arrows {
     font-size:2em;
     color: #FEFAE0;
     background:#606C38;
@@ -38,6 +42,20 @@ button {
     height: 2em;
     border-radius: 10px;
     border: 0px;
+    margin-top: 25px;
+}
+
+span.inning-arrow {
+    font-size: .5em;
+    vertical-align: top;
+}
+
+#bottom-inning {
+    display: none;
+}
+
+.disabled {
+    opacity: 0.5;
 }
 
 .container {
@@ -65,6 +83,7 @@ button {
     text-align: center;
 }
 
-.score-container {
-
+.count {
+    display: flex;
+    justify-content: space-around;
 }
