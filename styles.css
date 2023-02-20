@@ -17,7 +17,7 @@ body {
     align-items: center;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p,span {
     padding: 0px;
     margin: 0px
 }
@@ -30,8 +30,14 @@ h3 {
     font-size: 3em;
 }
 
-.arrows{
+button {
     font-size:2em;
+    color: #FEFAE0;
+    background:#606C38;
+    width: 2em;
+    height: 2em;
+    border-radius: 10px;
+    border: 0px;
 }
 
 .container {
@@ -47,17 +53,16 @@ h3 {
     display: flex;
     justify-content: space-around;
     padding: 15px;
+    height:75px;
 }
 
 .main-score {    
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between; 
     align-items: center;
-    padding: 0px 40px;
-    position: absolute;
-    top: 25%;
-    left: 0;
-    right: 0;
+    height: 425px;
+    padding: 0px 20px;
+    text-align: center;
 }
 
 .score-container {
