@@ -22,10 +22,24 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0px
 }
 
+h1 {
+    font-size: 12em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+.arrows{
+    font-size:2em;
+}
+
 .container {
     background: #FEFAE0;
     width: 95vw;
     height: 95vh;
+    max-width: 450px;
+    max-height:800px;
     border-radius: 15px;
 }
 
@@ -35,6 +49,17 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 15px;
 }
 
-.header-font{
-    font-size: 3em;
+.main-score {    
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 0px 40px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+}
+
+.score-container {
+
 }
