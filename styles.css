@@ -17,9 +17,24 @@ body {
     align-items: center;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0px;
+    margin: 0px
+}
+
 .container {
     background: #FEFAE0;
     width: 95vw;
     height: 95vh;
     border-radius: 15px;
+}
+
+.mini-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.header-font{
+    font-size: 3em;
 }
